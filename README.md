@@ -1,4 +1,4 @@
-kalanwm.cs.ubc.ca
+cs.ubc.ca/~kalanwm
 =================
 
-Academic web page
+My academic web page; a CV meets boring details about my research interests and teaching duties page. 
