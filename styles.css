@@ -42,9 +42,12 @@ header {
   margin: 1.5em auto;
   border: 1px solid #eee;
   box-shadow: 0 .5em 1em #888;
+  background: #fff;
+  /*
   background: -webkit-linear-gradient(top left, rgba(255,255,255,.7), rgba(240,240,240,.7));
   background: -moz-linear-gradient(top left, rgba(255,255,255,0.7), rgba(240,240,240,0.7));
   background: -ms-linear-gradient(top left, rgba(255,255,255,0.7), rgba(240,240,240,0.7));  
+  */
 }
 
 article {
