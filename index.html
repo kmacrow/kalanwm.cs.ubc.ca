@@ -89,7 +89,9 @@
 							<td>
 								<b>Advanced Operating Systems</b> &mdash;
 			                    Seminal work in OS design. 
-			                    <a href="#">Project</a><img src="images/external.png" class="super" />	
+			                    <a rel="tooltip" 
+			                    	href="https://github.com/kmacrow/Domina"
+			                    	title="Domina: DOM Filesystem">Project</a><img src="images/external.png" class="super" />	
 							</td>
 						</tr>
 						<tr>
@@ -99,7 +101,10 @@
 							<td>
 								<b>Artificial Intelligence</b> &mdash;
 								Introduction to modern AI research. 
-			                    <a href="#">Paper</a><img src="images/external.png" class="super" />
+			                    <a rel="tooltip"
+			                    	href="resources/AIMethodsforAutomaticallyGeneratingUserInterfaces.pdf"
+			                    	title="Automatically Generating UI">Paper</a>,
+			                    <a href="resources/AutomaticallyGeneratingUISlides.pdf">Slides</a><img src="images/external.png" class="super" />
 							</td>
 						</tr>
 						<tr>
@@ -109,7 +114,9 @@
 							<td>
 								<b>Computational Linguistics</b> &mdash;
 			                    NLP techniques and research.
-			                    <a href="#">Project</a><img src="images/external.png" class="super" />
+			                    <a rel="tooltip"
+			                    	href="#"
+			                    	title="Coming soon!">Project</a><img src="images/external.png" class="super" />
 							</td>
 						</tr>
 						<tr>
@@ -119,7 +126,27 @@
 							<td>
 								<b>Human Computer Interaction</b> &mdash;
 			                    HCI research and methods.
-			                    <a href="#">Project</a><img src="images/external.png" class="super" />
+			                    <a rel="tooltip" 
+			                    	href="#"
+			                    	title="Coming soon!">Project</a><img src="images/external.png" class="super" />
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<span class="label label-warning">CPSC 540</span> 
+							</td>
+							<td>
+								<b>Machine Learning</b> &mdash;
+			                    Techniques for analyzing "Big Data"
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<span class="label label-warning">CPSC 420</span> 
+							</td>
+							<td>
+								<b>Advanced Algorithms Design and Analysis</b> &mdash;
+			                    Analysis of algorithms and data structures.
 							</td>
 						</tr>
 					</table>
@@ -165,6 +192,10 @@
 			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			  })();
+			  $(document).ready(function(){
+			  	$('[rel="tooltip"]').tooltip();
+			  });
+		
 		</script>
 	</body>
 </html>
