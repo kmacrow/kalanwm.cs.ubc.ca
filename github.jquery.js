@@ -201,11 +201,11 @@
 					html += '<td style="width:36px"><img src="'+commit.user.avatar
 							+ '" class="img-rounded" '
 							+ 'style="height:36px;width:36px" /></td>';
-					html += '<td style="border-left:0"><a style="color:#000" href="'
+					html += '<td style="border-left:0"><div class="visible-desktop"><a style="color:#000" href="'
 							+ commit.url + '" target="_blank"><strong>' + commit.msg + '</strong></a><br />'
 							+ '<small><a href="' + commit.user.url + '" target="_blank">'
 							+ commit.user.name + '</a> <span class="muted">'
-							+ ago(commit.date) + ' to </span><a href="'+commit.repo.url+'">'+commit.repo.name+'</a></small></td>';
+							+ ago(commit.date) + ' to </span><a href="'+commit.repo.url+'">'+commit.repo.name+'</a></small></div></td>';
 					html += '<td style="border-left:0;text-align:right">'
 							+ '<a href="'+commit.url+'" target="_blank"><span class="badge" style="font-weight:regular">'
 							+ commit.sha.substring(0,10) + '</span></a><br />'
