@@ -1,0 +1,70 @@
+{
+  "name": "",
+  "glyphs": [
+    {
+      "search": [
+        "twitter"
+      ],
+      "code": 84,
+      "uid": "b1ec8e90c2c85cf0035849980a3789b3",
+      "css": "twitter",
+      "orig_css": "twitter",
+      "orig_code": 84,
+      "src": "zocial",
+      "from": 84
+    },
+    {
+      "search": [
+        "github"
+      ],
+      "code": 103,
+      "uid": "9bba5df43e4e9419975336161e1810c3",
+      "css": "github",
+      "orig_css": "github",
+      "orig_code": 103,
+      "src": "zocial",
+      "from": 103
+    },
+    {
+      "search": [
+        "load",
+        "progress",
+        "wait"
+      ],
+      "code": 59448,
+      "meta": {
+        "email": "berbentseva_angela@yahoo.com",
+        "author": "Angela Berbentseva, specially for fontello"
+      },
+      "uid": "5d2d07f112b8de19f2c0dbfec3e42c05",
+      "css-ext": "animate-spin",
+      "css": "spin5",
+      "orig_css": "spin5",
+      "orig_code": 59448,
+      "src": "fontelico",
+      "from": 59448
+    },
+    {
+      "search": [
+        "github"
+      ],
+      "code": 62216,
+      "meta": {
+        "twitter": "https://twitter.com/puzrin",
+        "github": "https://github.com/puzrin",
+        "author": "Vitaly Puzrin"
+      },
+      "uid": "4a0bb1ac004980bb3837560d4c9e8cee",
+      "file": "github",
+      "transform": {
+        "rescale": 0.9,
+        "offset": 0.05
+      },
+      "css": "github-1",
+      "orig_css": "github",
+      "orig_code": 62216,
+      "src": "brandico",
+      "from": 62216
+    }
+  ]
+}

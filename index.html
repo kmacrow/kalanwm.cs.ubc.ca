@@ -5,6 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" media="screen" />
 		<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css" />
+		<link rel="stylesheet" href="css/fontello.css" />
+		<link rel="stylesheet" href="css/animate.css" />
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
@@ -19,6 +21,10 @@
                 	The University of British Columbia
 				</div>
 				<div class="span8">
+					<br />
+					<div id="github">
+						<i class="icon-spin5 animate-spin"></i>
+					</div>
 					<!--
 					<h1 class="muted">&nbsp;</h1>
 					<br />
@@ -181,6 +187,7 @@
 	    </div>
 
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="/github.jquery.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			  var _gaq = _gaq || [];
@@ -194,8 +201,12 @@
 			  })();
 			  $(document).ready(function(){
 			  	$('[rel="tooltip"]').tooltip();
+			  	$('#github').github({
+			  		'user': 'kmacrow',
+			  		'display': 2
+			  	});
 			  });
-		
+				
 		</script>
 	</body>
 </html>
