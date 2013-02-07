@@ -11,6 +11,18 @@ p.border{
   border-bottom: 1px solid #ddd;
 }
 
+.completed {
+  color: #3A87AD;
+}
+
+.in-progress {
+  color: #468847;
+}
+
+.planned {
+  color: #F89406;
+}
+
 .grey {
   color: #555;
 }
