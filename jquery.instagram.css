@@ -1,0 +1,23 @@
+
+.instagram {
+	padding-top:10px;
+  /*background-color: rgb(51,51,51);*/
+  text-align: center;
+  /*border: 1px solid  #ccc;*/
+  border-radius: 5px;
+}
+
+#instagram-logo{
+  margin-top: 8px;
+  width: 80px;
+}
+
+.instagram > img {
+  width: 100px;
+  margin: 10px 0 10px 20px;
+  cursor: pointer;
+}
+
+.instagram > img:first-child {
+	margin-left: 0;
+}
