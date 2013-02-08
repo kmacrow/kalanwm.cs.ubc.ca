@@ -45,12 +45,17 @@ p.border{
   margin: 20px 0;
 }
 
-#footer{
+#github {
+  height: 131px;
+}
+
+#footer {
   position: fixed;
   width: 100%;
   bottom: 0;
   height: 60px;
-  background: #3e3e3e;
+  background: #3e3e3e url('images/darkdenim3_@2X.png');
+  background-size: 420px 326px;
 }
 
 #footer a{
