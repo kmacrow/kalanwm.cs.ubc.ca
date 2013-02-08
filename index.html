@@ -7,9 +7,10 @@
 		<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css" />
 		<link rel="stylesheet" href="css/fontello.css" />
 		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="jquery.instagram.css" />
 	</head>
 	<body>
-		<div class="vpad"></div>
+		<!--<div class="vpad"></div>-->
 		<div class="container">
 			<div class="row-fluid">
 				<div class="span4 center">
@@ -26,46 +27,84 @@
 					</div>
 				</div>
 			</div>
+
+			
 			<div class="row-fluid">
 				<div class="span1 vpad">
 				</div>
 			</div>
+		
+
 			<div class="row-fluid">
-				<div class="span4">
-					<div class="center"><h4>Research</h4></div>
-					<p class="first">
-	                    I work in the <a href="http://cs.ubc.ca/labs/nss">Networks, Systems and Security
-	                    Laboratory</a> at <a href="http://ubc.ca">UBC</a> under the supervision
-	                    of <a href="http://www.cs.ubc.ca/~andy/">Andy Warfield</a> and <a href="https://www.cs.ubc.ca/people/bill-aiello">Bill
-	                        Aiello</a>. 
-	                </p>
-	                <p>
-	                	My focus is on web scale computing, as well as
-	                    advancing the HTML5 browser as a platform for rich, distributed applications.
-	                    I'm also very interested in security and privacy in social networks, and on the web in general. 
-	                </p>
-	                <p>
-	                	<a href="http://cs.ubc.ca/labs/nss">NSS</a> has a proud history of building real systems and submitting
-	                    work to top-tier Computer Science conferences.
-                	</p>
-				</div>
-				<div class="span4">
-					<div class="center"><h4>Teaching</h4></div>
-					<p class="first">
-	                    I have taught <a href="http://www.ugrad.cs.ubc.ca/~cs317">Computer Science 317</a>
-	                    (Internet Computing) with Bill Aiello twice in past years, and a third time
-	                    with Donald Acton this year (Jan - Apr, 2013.)
-	                </p>
-	                <p>
-	                    The course introduces the hardware and software layers of
-	                    computer networks, as well as the protocols used to move
-	                    data through them. 
-	                </p>
-	                <p>
-	                	My responsibilities have included developing network programming
-	                	assignments as well as teaching labs and tutorials. I recently
-	                	gave a <a href="https://speakerdeck.com/kmacrow/data-interchange-formats">short talk</a> on data interchange formats.
-                	</p>
+				<div class="span8">
+					<div class="row-fluid">
+						<div class="span6">
+							<div class="center"><h4>Research</h4></div>
+							<p class="first">
+			                    I work in the <a href="http://cs.ubc.ca/labs/nss">Networks, Systems and Security
+			                    Laboratory</a> at <a href="http://ubc.ca">UBC</a> under the supervision
+			                    of <a href="http://www.cs.ubc.ca/~andy/">Andy Warfield</a> and <a href="https://www.cs.ubc.ca/people/bill-aiello">Bill
+			                        Aiello</a>. 
+			                </p>
+			                <p>
+			                	My focus is on web scale computing, as well as
+			                    advancing the HTML5 browser as a platform for rich, distributed applications.
+			                    I'm also very interested in security and privacy in social networks, and on the web in general. 
+			                </p>
+			                <p>
+			                	<a href="http://cs.ubc.ca/labs/nss">NSS</a> has a proud history of building real systems and submitting
+			                    work to top-tier Computer Science conferences.
+		                	</p>
+						</div>
+						<div class="span6">
+							<div class="center"><h4>Teaching</h4></div>
+							<p class="first">
+			                    I have taught <a href="http://www.ugrad.cs.ubc.ca/~cs317">Computer Science 317</a>
+			                    (Internet Computing) with Bill Aiello twice in past years, and a third time
+			                    with Donald Acton this year (Jan - Apr, 2013.)
+			                </p>
+			                <p>
+			                    The course introduces the hardware and software layers of
+			                    computer networks, as well as the protocols used to move
+			                    data through them. 
+			                </p>
+			                <p>
+			                	My responsibilities have included developing network programming
+			                	assignments as well as teaching labs and tutorials. I recently
+			                	gave a <a href="https://speakerdeck.com/kmacrow/data-interchange-formats">short talk</a> on data interchange formats.
+		                	</p>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="span6">
+							<div class="center"><h4>Projects</h4></div>
+							<p class="first">
+								I am the creator of the 
+								<a href="https://github.com/kmacrow/Yulan">Yulan UI</a> 
+								HTML5 front-end framework, as well as 
+								<a href="https://github.com/kmacrow/jquery.instagram.js">instagram.js</a>,
+								<a href="https://github.com/kmacrow/jquery.github.js">github.js</a>
+								and
+								<a href="https://github.com/kmacrow/jquery.asyncimage.js">asyncimage.js</a>. 
+								I am also currently working on
+								a collaborative web IDE 
+								(<a href="https://github.com/kmacrow/Asper">Asper</a>), 
+								a JavaScript x86 PC emulator 
+								(<a href="https://github.com/kmacrow/Vespen">Vespen</a>) 
+								and a small collection of 
+								natural language processing tools 
+								(<a href="https://github.com/kmacrow/NLP-Tools">NLP Tools</a>) 
+								in Python.  
+							</p>
+						</div>
+						<div class="span6 center">
+							<img id="instagram-logo" src="images/insta-logo.jpg" />
+							<br />
+							<div id="instagram" class="instagram">
+							<!-- Instagram pics go here... -->
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="span4">
 					<div class="center"><h4>Courses</h4></div>
@@ -138,13 +177,22 @@
 								<span class="label label-warning">CPSC 420</span> 
 							</td>
 							<td>
-								<b>Advanced Algorithms Design and Analysis</b> &mdash;
-			                    Analysis of algorithms and data structures.
+								<b>Algorithms Design</b> &mdash;
+			                    Advanced analysis of algorithms and data structures.
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<span class="label label-important">&nbsp;&nbsp;&nbsp;Thesis&nbsp;&nbsp;&nbsp;</span> 
+							</td>
+							<td>
+								<b>M.Sc. Research Thesis</b> &mdash;
+			                    Topic still undecided, more news coming soon.
 							</td>
 						</tr>
 					</table>
 				</div>
-			</div> 
+			</div>
 			<!--
 			<div class="row-fluid">
 				<div class="span8" id="instagram">
@@ -182,7 +230,7 @@
 
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="jquery.github.js"></script>
-		<!--<script src="jquery.instagram.js"></script>-->
+		<script src="jquery.instagram.min.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			  var _gaq = _gaq || [];
@@ -200,17 +248,15 @@
 			  		'user': 'kmacrow',
 			  		'display': 2
 			  	});
-			  	/*
 			  	$('#instagram').instagram({
-			  		'userid': '20220162',
-			  		'client_id': 'c91885419e20450083bbca3b6fe51128',
-			  		'tag': 'kalanmacrow',
-			  		'display': 4,
-			  		'proxy': 'http://54.245.105.104/proxy.py'
-
-			  	});
-				*/
+		                'tag': 'kalanmacrow',
+		              'proxy': 'http://54.245.105.104/proxy.py',
+		          'client_id': 'c91885419e20450083bbca3b6fe51128',
+		            'display': 3
+		        });
+		        
 			  });
+
 				
 		</script>
 	</body>
