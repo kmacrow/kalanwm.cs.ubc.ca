@@ -23,7 +23,9 @@
 				<div class="span8">
 					<br />
 					<div id="github">
-						<i class="icon-spin5"></i>
+						<div style="text-align:center">
+							<img src="images/dots16.gif" />
+						</div>
 					</div>
 				</div>
 			</div>
@@ -47,9 +49,9 @@
 			                        Aiello</a>. 
 			                </p>
 			                <p>
-			                	My focus is on web scale computing, as well as
-			                    advancing the HTML5 browser as a platform for rich, distributed applications.
-			                    I'm also very interested in security and privacy in social networks, and on the web in general. 
+			                	My focus is on web computing and
+			                    advancing the HTML5 browser as a platform for powerful, distributed applications.
+			                    I am very interested in security and privacy in online social networks, as well industrial and UI/UX design. 
 			                </p>
 			                <p>
 			                	<a href="http://cs.ubc.ca/labs/nss">NSS</a> has a proud history of building real systems and submitting
@@ -81,13 +83,12 @@
 							<p class="first">
 								I have a number of works-in-progress, including the  
 								<a href="https://github.com/kmacrow/Yulan">Yulan UI</a> 
-								HTML5 front-end framework, as well as
+								front-end framework, as well as
 								<a href="http://kmacrow.github.com/jquery-github-js">github.js</a>,
 								<a href="https://github.com/kmacrow/jquery.instagram.js">instagram.js</a>
 								and
 								<a href="https://github.com/kmacrow/jquery.asyncimage.js">asyncimage.js</a>. 
-								I am also currently working on
-								a collaborative web IDE 
+								A collaborative web IDE 
 								(<a href="https://github.com/kmacrow/Asper">Asper</a>), 
 								a JavaScript x86 PC emulator 
 								(<a href="https://github.com/kmacrow/Vespen">Vespen</a>) 
@@ -242,11 +243,18 @@
 			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			  })();
+			  function adjust(){
+			  	if(window.innerHeight < 718){
+			  		$('body').css('font-size','.7em');
+			  	}
+			  }
 			  $(document).ready(function(){
 			  	$('[rel="tooltip"]').tooltip();
 			  	$('#github').github({
 			  		'user': 'kmacrow',
-			  		'display': 2
+			  		'display': 2,
+			  		'client_id': '63aa418f6132379e9468',
+			  		'client_secret': 'fcece8c0b13a010de5be79d8ac1f581e16c19531'
 			  	});
 			  	$('#instagram').instagram({
 		                'tag': 'kalanmacrow',
@@ -254,7 +262,7 @@
 		          'client_id': 'c91885419e20450083bbca3b6fe51128',
 		            'display': 3
 		        });
-		        
+		        adjust();
 			  });
 
 				
